@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Hello world!");
         try {
             // Création d'une nouvelle connexion à la base de données
-            Connexion connexion = new Connexion("ece_shopping", "root", "");
+            Connexion connexion = new Connexion("relaxholidays", "root", "");
             //u.validerPanier();
             /*
             String requete = "UPDATE livre SET stock = 3 WHERE identifiant = 1;";

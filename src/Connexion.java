@@ -36,7 +36,7 @@ public class Connexion {
          */
         public Connexion(String nameDatabase, String loginDatabase, String passwordDatabase) throws SQLException, ClassNotFoundException{
             // chargement driver "com.mysql.jdbc.Driver"
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             String urlDatabase = "jdbc:mysql://localhost:3306/"+ nameDatabase;
             //création d'une connexion JDBC à la base
